@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: #218838;
+}
+
+
+.results p {
+  margin: 10px 0;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.results span {
+  font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+      padding: 15px;
+  }
+
+  input, button {
+      padding: 10px;
+  }
+
+  h1, h2 {
+      font-size: 1.5em;
+  }
+
+  .results p {
+      font-size: 14px;
+  }
+}
+
+
+@media (min-width: 601px) {
+  .container {
+      width: 80%;
+      max-width: 500px;
+  }
+}
